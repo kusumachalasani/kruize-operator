@@ -33,22 +33,22 @@ const (
 // Default container image versions
 const (
 	// defaultAutotuneImageTag is the default tag for Kruize Autotune image
-	defaultAutotuneImageTag = "0.11"
+	defaultAutotuneImageTag = "0.12-rc2"
 	
 	// defaultUIImageTag is the default tag for Kruize UI image
 	defaultUIImageTag = "0.1.0"
 	
 	// defaultOptimizerImageTag is the default tag for Kruize Optimizer image
-	defaultOptimizerImageTag = "0.0.1"
+	defaultOptimizerImageTag = "0.0.2-rc2"
 	
 	// defaultAutotuneImageRepo is the default repository for Kruize Autotune image
-	defaultAutotuneImageRepo = "quay.io/kruize/autotune_operator"
+	defaultAutotuneImageRepo = "quay.io/kusumach/autotune_operator"
 	
 	// defaultUIImageRepo is the default repository for Kruize UI image
 	defaultUIImageRepo = "quay.io/kruize/kruize-ui"
 	
 	// defaultOptimizerImageRepo is the default repository for Kruize Optimizer image
-	defaultOptimizerImageRepo = "quay.io/kruize/kruize-optimizer"
+	defaultOptimizerImageRepo = "quay.io/kusumach/kruize-optimizer"
 )
 
 // Package-level variables that cache the resolved default images.
